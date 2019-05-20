@@ -52,4 +52,12 @@ public class Account {
     public void setOwnedBy(String ownedBy) {
         this.ownedBy = ownedBy;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
